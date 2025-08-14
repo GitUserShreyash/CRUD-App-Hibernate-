@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: flex-start; 
+            background-color: #f0f2f5;
+        }
+        .custom-container {
+            width: 50%; 
+            max-width: 600px; 
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px; 
+        }
+        .custom-container button {
+            margin: 1rem;
+            padding: 12px 0; 
+            width: 150px; 
+            border: none; 
+            border-radius: .4rem;
+            background-color: #2d3748;
+            color: #ffffff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            cursor: pointer; 
+            transition: background-color 0.3s; 
+        }
+        button:hover {
+            background-color: #1a202c;
+        }
+        .but-container {
+            display: flex;
+            justify-content: center; 
+        }
+        .but-container a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="bg-[#2d3748] p-4 w-full">
+        <h1 class="text-3xl font-bold text-white inline-block">Employee Management Portal</h1>
+        <div class="float-right">
+            <form action="Home.html" method="post" class="inline">
+                <button type="submit" class="text-white px-4 py-2 hover:bg-[#4a5568] rounded bg-transparent border-none">Home</button>
+            </form>
+
+            <form action="GetAll" method="post" class="inline">
+                <button type="submit" class="text-white px-4 py-2 hover:bg-[#4a5568] rounded bg-transparent border-none">All Employees</button>
+            </form>
+
+            <form action="add.html" method="post" class="inline">
+                <button type="submit" class="text-white px-4 py-2 hover:bg-[#4a5568] rounded bg-transparent border-none">Add Employee</button>
+            </form>
+        </div>
+    </nav>
+    
+    <div class="custom-container">
+        <h1 class="text-2xl font-bold text-[#2d3748]">The Operation is Successful</h1>
+        <div class="but-container">
+            <a href="Home.html"><button>Home</button></a>
+            <form action="GetAll" method="post" class="inline">
+                <button type="submit">Display All</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
