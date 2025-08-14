@@ -64,8 +64,4 @@ src/
 ├── Success.html
 └── UpdateEmployee.html
 
-## 🎨 User Interface
 
-Here is a screenshot of the Employee Management Portal:
-
-![Employee Management UI](images/ui-screenshot.png)
