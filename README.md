@@ -1,3 +1,4 @@
+
 # 🧑‍💼 Employee Management CRUD Application
 
 A full-stack Java web application to perform CRUD (Create, Read, Update, Delete) operations on employee records using **Servlets**, **Hibernate**, and **MySQL**, with a basic **HTML/JSP-based UI**.
@@ -63,5 +64,13 @@ src/
 ├── Home.html
 ├── Success.html
 └── UpdateEmployee.html
+
+
+
+
+Here is a screenshot of the Employee Management Portal:
+
+![Employee Management UI](src/main/java/com/shreyash/CRUDApp/Images/ui-screenshot.png)
+
 
 
