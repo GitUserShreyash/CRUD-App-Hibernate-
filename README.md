@@ -67,10 +67,3 @@ src/
 
 
 
-
-Here is a screenshot of the Employee Management Portal:
-
-![Employee Management UI](src/main/java/com/shreyash/CRUDApp/Images/ui-screenshot.png)
-
-
-
